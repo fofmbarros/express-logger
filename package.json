@@ -33,6 +33,10 @@
     "email": "mail@franciscobarros.pt",
     "url": "https://franciscobarros.pt"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fofmbarros/express-logger.git"
+  },
   "license": "ISC",
   "packageManager": "pnpm@10.11.1",
   "publishConfig": {
