@@ -1,0 +1,60 @@
+{
+  "name": "@fofmbarros/express-logger",
+  "version": "0.0.1",
+  "description": "Express Request Logger",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "require": {
+      "types": "./dist/index.d.cts",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "lint": "eslint",
+    "build": "tsup",
+    "release": "pnpm run build && changeset publish",
+    "test": "vitest"
+  },
+  "keywords": [
+    "express",
+    "logger",
+    "request-logger"
+  ],
+  "author": {
+    "name": "Francisco Barros",
+    "email": "mail@franciscobarros.pt",
+    "url": "https://franciscobarros.pt"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.4",
+    "@eslint/js": "^9.28.0",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.30",
+    "@types/supertest": "^6.0.3",
+    "eslint": "^9.28.0",
+    "express": "^5.1.0",
+    "pino": "^9.7.0",
+    "supertest": "^7.1.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1",
+    "vitest": "^3.2.2"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.4"
+  }
+}
