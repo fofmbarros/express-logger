@@ -1,7 +1,7 @@
 {
   "name": "@fofmbarros/express-logger",
-  "version": "1.0.0",
-  "description": "Express Request Logger",
+  "version": "1.0.1",
+  "description": "Plug and play Express.js request and response middleware",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -38,7 +38,7 @@
     "url": "git+https://github.com/fofmbarros/express-logger.git"
   },
   "license": "ISC",
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.4",
   "publishConfig": {
     "provenance": true,
     "access": "public"
@@ -47,7 +47,7 @@
     "@changesets/cli": "^2.29.4",
     "@eslint/js": "^9.28.0",
     "@types/express": "^5.0.2",
-    "@types/node": "^22.15.30",
+    "@types/node": "^22.15.34",
     "@types/supertest": "^6.0.3",
     "eslint": "^9.28.0",
     "express": "^5.1.0",
