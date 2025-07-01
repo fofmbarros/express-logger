@@ -1,5 +1,11 @@
 # @fofmbarros/express-logger
 
+## 1.1.2
+
+### Patch Changes
+
+- 0db9f1d: add missing files property in package.json
+
 ## 1.1.0
 
 ### Minor Changes
